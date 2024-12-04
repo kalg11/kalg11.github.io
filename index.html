@@ -6,13 +6,15 @@
           verify: { projectID: '675087bfc71e01f74bc2a430' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
-                                  render: {
-	mode: 'embedded',
-	target: document.body,
-},
-autostart: false
+          render: {
+            mode: 'embedded',
+            target: document.body,
+          },
+          autostart: true // Change this to true
         });
       }
       v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
 </script>
+
+
