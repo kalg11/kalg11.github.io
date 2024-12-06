@@ -15,7 +15,7 @@ body {
 
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 5% 0; /* Vertical padding is now 5% of the viewport height */
     background-color: #4169E1; /* Light royal blue */
     color: white;
 }
